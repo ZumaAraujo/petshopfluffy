@@ -1,0 +1,217 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F2F2F2;
+  margin: 0;
+}
+
+/* ================= TÍTULOS ================= */
+h1, h2 {
+  font-family: 'Chewy', cursive;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  color: #4A6C8C;
+}
+
+/* ================= HEADER ================= */
+header {
+  background: linear-gradient(90deg, #2F4F73, #4A6C8C);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #E6B8C4;
+}
+
+/* MENU */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #E6B8C4;
+}
+
+/* ================= CONTAINER ================= */
+.container {
+  background-color: #FFFFFF;
+  padding: 25px;
+  border-radius: 12px;
+  border: 2px solid #E6B8C4;
+}
+
+/* ================= TEXTOS ================= */
+p {
+  font-size: 16px;
+  color: #444;
+}
+
+/* ================= IMAGENS ================= */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* ================= CARDS PRODUTOS ================= */
+.card {
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  color: #2F4F73;
+}
+
+/* ================= CATEGORIAS ================= */
+.titulo-categoria {
+  color: #2F4F73;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+/* linha embaixo */
+.titulo-categoria::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: #E6B8C4;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 2px;
+}
+
+/* ================= FORMULÁRIO ================= */
+
+#formAgendamento {
+  border-radius: 15px;
+}
+
+#formAgendamento h3,
+#formAgendamento h4 {
+  color: #2F5D9A;
+}
+
+#formAgendamento .form-control {
+  border-radius: 10px;
+}
+
+#formAgendamento button {
+  background-color: #2F5D9A;
+  border: none;
+  border-radius: 10px;
+}
+
+#formAgendamento button:hover {
+  background-color: #244876;
+}
+
+
+
+
+
+/* ================= BOTÕES ================= */
+button,
+.btn {
+  background-color: #4A6C8C;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #2F4F73;
+  color: #E6B8C4;
+}
+
+/* ================= FOOTER ================= */
+footer {
+  background-color: #2F4F73; /* igual ao menu */
+  color: #FFFFFF;
+  margin-top: 40px;
+  padding: 25px;
+  text-align: center;
+  border-top: 4px solid #E6B8C4;
+}
+
+footer p {
+  color: #FFFFFF;
+  margin: 5px 0;
+}
+
+footer a {
+  color: #E6B8C4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #FFFFFF;
+}
+
+/* ícones */
+footer img {
+  margin: 5px;
+  transition: 0.3s;
+}
+
+footer img:hover {
+  transform: scale(1.2);
+}
+
+
+
+.carousel {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #FFFFFF !important;
+  border: 1px solid #E8E8E8 !important;
+  border-top: 4px solid #2F5D9A !important;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.card-title {
+  color: #2F5D9A;
+}
+
+.card h3 {
+  color: #2F5D9A;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(47, 93, 154, 0.20);
+}
+
+.carousel img {
+  border: 2px solid #ccc;
+  border-radius: 12px
+}
